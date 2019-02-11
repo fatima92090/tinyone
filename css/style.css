@@ -33,6 +33,7 @@ header{
 	font-weight: bold;
 	color: #010101 !important;
 	text-align: right;
+	padding-left: 70px!important;
 }
 .custom-nav ul li a:hover {
     color: #fff!important;
