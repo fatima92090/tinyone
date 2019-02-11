@@ -1,5 +1,11 @@
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
+	
+	/*header*/
+	.common h1 {
+		font-size: 28px;
+	}
+
 	.slider{	
 		padding-top: 0px;
 		padding-bottom: 100px;
@@ -7,9 +13,12 @@
 	.slider-left{
 		margin-top: 10px;
 	}
+	.slider-right {
+		margin-top: 30px;
+	}
 	.slider-right img{
-		width: 80%;
-		margin-left: 55px;
+		/*width: 80%;*/
+		/*margin-left: 55px;*/
 	}
 	.indicators-custom li{
 		bottom: -75px;
@@ -20,6 +29,7 @@
 	/*features*/
 	.common h3 {    
 		font-weight: 400;
+		font-size: 18px;
 	}
 	.t-c{
 		padding-top: 15px;
@@ -41,10 +51,15 @@
 		margin-top: 7px;
 
 	}
+	.social-conenct {
+		text-align: center;
+		padding-top: 50px;
+		padding-bottom: 45px;
+	}
 
 	.social-conenct li i {   
 		font-size: 38px;
-    padding-right: 3px;
+		padding-right: 3px;
 	}
 	.address_content p, p a {
 		font-size: 13px;
@@ -52,7 +67,11 @@
 	}
 	.add1{
 		text-align: center;
-		padding-bottom: 15px;
+		padding-bottom: 35px;
+	}
+	.contacts {
+		padding-top: 70px;
+		padding-bottom: 45px;
 	}
 }
 
